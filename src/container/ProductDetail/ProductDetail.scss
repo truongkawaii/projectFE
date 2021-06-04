@@ -1,0 +1,10 @@
+.type-product{
+    padding: 8px 20px;
+    margin-right: 8px;
+    border: 1px solid rgba(83, 80, 80, 0.507);
+    cursor: pointer;
+}
+.type-product.active{
+    border: 1px solid #b19361;
+    color:#b19361;
+}

@@ -1,0 +1,27 @@
+.returnHome{
+    border-radius: 10px ; 
+    border: 2px solid rgb(19, 124, 150);
+    color: rgb(19, 124, 150);
+    padding: 10px 5px;
+    display: inline-block;
+    margin-top: 25px;
+    transition: 0.3s;
+    &:hover{
+        background-color: rgb(19, 124, 150);
+        color: white;
+    }
+}
+.checkout-notice{
+    max-width: 750px;
+    margin: 0 auto;
+    // border: 1px solid #000;
+    text-align: center;
+    padding: 80px 0;
+    border-radius: 15px;
+    box-shadow: 2px 3px 3px 2px #ccc;
+
+}
+.checkout-notice span{
+    font-size: 55px;
+    color: rgb(72, 197, 78);
+}

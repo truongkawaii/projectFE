@@ -1,0 +1,97 @@
+.all-orders{
+  // border: 1px solid #000;
+  box-shadow: 3px 3px 4px 4px rgba(182, 176, 176, 0.521);
+  border-radius: 8px;
+}
+.list-orders.table{
+    li{
+        font-size: 18px;
+    }
+    .name{
+        color: rgb(223, 149, 39);
+    }
+    .note{
+        color: red;
+    }
+}
+.item-order{
+    .product{
+        font-weight:bold ;
+    }
+}
+.list-orders{
+    margin-bottom: 0;
+    display: flex;
+    // border-bottom: 1px solid #000;
+    border-bottom: 1px solid rgb(155, 153, 153);
+    // 
+    li{ padding: 10px 0;
+        border-right: 1px solid rgb(155, 153, 153);
+        // border: 1px solid #000;
+        // border-top: 1px solid #000;
+        // border-left: 1px solid #000;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+ 
+    }
+    .id{
+        flex-basis: 5%;
+        max-width: 5%;
+    }
+    .name{
+        flex-basis: 10%;
+        max-width: 10%;
+    }
+    .product{
+        flex-basis: 20%;
+        max-width: 20%;
+        display: block;
+    }
+    .note{
+        flex-basis: 20%;
+        max-width: 20%;
+    }
+
+    .type{
+        flex-basis: 15%;
+        max-width: 15%;
+        &.off{
+            font-weight: bold;
+            color: rgb(182, 143, 38);
+        }
+        &.on{  font-weight: bold;
+            color: rgb(20, 139, 40);
+        }
+    }
+    .phone{
+        flex-basis: 10%;
+        max-width: 10%;
+    }
+    .total{
+        flex-basis: 10%;
+        max-width: 10%;
+    }
+    .status{
+        flex-basis: 10%;
+        max-width: 10%;
+    }
+    .greenStatus{
+        color: rgb(73, 161, 95);
+        font-weight: bold;
+    }
+}
+.item-order {
+    .product{
+        text-align: left;
+
+        padding-left: 10px;
+        span{
+            color: rgb(219, 84, 84);
+        }
+    }
+}
+.header-bottom.header-bottom-color--green.section-fluid.sticky-header.sticky-color--white.sticky{
+    z-index: 9999;
+}
